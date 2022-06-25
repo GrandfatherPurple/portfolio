@@ -6,8 +6,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "build-github": "rm -rf docs/* && parcel build index.html --public-url ./ -d docs"
+    "build": "rm -rf docs/* && parcel build src/index.html --public-url ./",
+    "build-github": "parcel build index.html --public-url ./ -d docs"
   },
   "repository": {
     "type": "git",
